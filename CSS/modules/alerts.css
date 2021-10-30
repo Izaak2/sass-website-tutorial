@@ -1,0 +1,72 @@
+/*
+Error: Undefined variable: "$brand-secondary".
+        on line 2 of SASS/modules/alerts.sass
+
+1: .alert
+2:   border: 1px solid $brand-secondary
+3:   margin: 10px 0
+4:   padding: 15px
+5:   text-transform: uppercase
+6:   +border-rad(10px)
+7: 
+
+Backtrace:
+SASS/modules/alerts.sass:2
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/script/tree/list_literal.rb:75:in `map'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/script/tree/list_literal.rb:75:in `_perform'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+D:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$brand-secondary\".\A         on line 2 of SASS/modules/alerts.sass\A \A 1: .alert\A 2:   border: 1px solid $brand-secondary\A 3:   margin: 10px 0\A 4:   padding: 15px\A 5:   text-transform: uppercase\A 6:   +border-rad(10px)\A 7: "; }
